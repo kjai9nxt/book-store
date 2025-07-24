@@ -1,0 +1,60 @@
+/* Header Component Styles */
+.header-container {
+    background-color: #ffdd57;
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+}
+  
+.header-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #333;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.nav-items-container {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    cursor: pointer;
+}
+  
+.icon {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Hide text labels by default */
+.icon-name {
+    display: none;
+}
