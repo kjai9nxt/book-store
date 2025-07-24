@@ -54,7 +54,16 @@
     color: #333;
 }
 
-/* Hide text labels by default */
 .icon-name {
     display: none;
 }
+
+/* Responsive styles */
+
+@media screen and (min-width: 768px) {
+    .icon-name {
+        display: inline;
+        margin-left: 5px
+    }
+}
+        
